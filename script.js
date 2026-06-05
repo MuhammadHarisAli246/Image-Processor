@@ -1,4 +1,4 @@
-const API_URL = "https://dekunyztx8.execute-api.us-east-1.amazonaws.com/prod/upload";
+const API_URL = "https://dekunyztx8.execute-api.us-east-1.amazonaws.com/prod";
 
 async function uploadImage() {
 
