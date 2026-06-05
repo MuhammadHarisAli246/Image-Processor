@@ -1,0 +1,43 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Image Processor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AWS Image Processor</h1>
+
+        <p>Upload Image and Apply Filter</p>
+
+        <input type="file" id="imageInput">
+
+        <select id="filter">
+            <option value="grayscale">Grayscale</option>
+            <option value="blur">Blur</option>
+            <option value="sepia">Sepia</option>
+        </select>
+
+        <button onclick="uploadImage()">
+            Process Image
+        </button>
+
+        <div id="message"></div>
+
+        <div id="jobId"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```

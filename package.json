@@ -1,0 +1,11 @@
+
+{
+  "name": "image-processor-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html style.css script.js dist/"
+  }
+}
+
+ 
